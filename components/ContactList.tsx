@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { StyleSheet, Text, View, FlatList } from 'react-native';
 import * as Contacts from 'expo-contacts';
 
-// Import depuis le même dossier (./) car SendSMSButton.tsx est dans le même dossier `components`
+
 import SendSMSButton from './SendSMSButton';
 
 export default function ContactList() {
