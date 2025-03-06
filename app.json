@@ -15,7 +15,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.READ_CONTACTS",
+        "android.permission.WRITE_CONTACTS"
+      ],
+      "package": "com.aubaguevictor.shopptoncompte"
     },
     "web": {
       "bundler": "metro",
@@ -42,6 +47,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "89742941-c68a-4ebb-8ee8-8fb94b0b537c"
+      }
+    },
+    "owner": "aubaguevictor"
   }
 }
